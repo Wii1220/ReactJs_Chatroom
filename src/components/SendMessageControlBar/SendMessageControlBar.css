@@ -1,0 +1,13 @@
+.Name-Input {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.Message-Input {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.Send-Button {
+    width: 15%;
+}
