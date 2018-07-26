@@ -137,7 +137,7 @@ class App extends Component {
         </div>
           : 
         <div>  
-          <div style={{minHeight: 'calc(100vh - 40px)'}}>
+          <div className="Select-Chatroom-Page-Container">
             <SelectChatRoom handleChatRoomNumInput={this.handleChatRoomNumInput} changeChatRoom={this.changeChatRoom} />
             <ShowChatRoomList chatRoomList={this.state.chatRoomList}/>          
           </div>
